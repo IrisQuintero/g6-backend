@@ -48,12 +48,6 @@ let productos = [
     __v: 0,
     image: "https://cdn.homedepot.com.mx/productos/758609/758609.jpg"},
 
-{name:"",
-categoría: "Plantas florales",
-tamaño: "na",
-precio:"",
-imagen:""},
-
 {isActive: true,
     _id: "5fbc19a65a3f794d72471163",
     product_name: "Iresine",
@@ -105,12 +99,6 @@ imagen:""},
     updatedAt: "2020-11-23T20:20:54.245Z",
     __v: 0,
     image: "https://cdn.homedepot.com.mx/productos/957367/957367.jpg"},
-
-{name:"",
-categoría: "Plantas de follaje",
-tamaño: "120x19.6",
-precio:"",
-imagen:""},
 
 {isActive: true,
     _id: "5fbc19a65a3f794d72471163",
@@ -241,13 +229,6 @@ imagen:""},
     updatedAt: "2020-11-23T20:20:54.245Z",
     __v: 0,
     image: "https://cdn.homedepot.com.mx/productos/125512/125512.jpg"},
-
-
-{name:"",
-categoría: "Plantas comestibles",
-tamaño: "17x11cm",
-precio:"30.00",
-imagen:""},
 
 {isActive: true,
     _id: "5fbc19a65a3f794d72471163",
