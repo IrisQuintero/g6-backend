@@ -131,9 +131,9 @@ const router = express.Router();
 router.get('/', (req, res) => res.send({"mensaje": "hola"}));
 router.get('/productos', (req, res) => res.send(productos));
 
-
-app.use('/.netlify/functions/server', router);  // path must route to lambda
 app.use(cors());
+app.use('/.netlify/functions/server', router);  // path must route to lambda
+
 
 module.exports = app;
 module.exports.handler = serverless(app);
