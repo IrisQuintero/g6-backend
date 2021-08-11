@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const serverless = require('serverless-http');
 const bodyParser = require('body-parser');
+const cors = require("cors");
 
 // simulamos la base de datos
 let productos = [{
@@ -132,7 +133,7 @@ router.get('/productos', (req, res) => res.send(productos));
 
 
 app.use('/.netlify/functions/server', router);  // path must route to lambda
-
+app.use(cors());
 
 module.exports = app;
 module.exports.handler = serverless(app);
