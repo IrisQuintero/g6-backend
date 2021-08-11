@@ -130,8 +130,8 @@ const router = express.Router();
 router.get('/', (req, res) => res.send({"mensaje": "hola"}));
 router.get('/productos', (req, res) => res.send(productos));
 
-app.use(bodyParser.json());
 app.use(cors());
+app.use(bodyParser.json());
 app.use('/.netlify/functions/server', router);  // path must route to lambda
 
 
