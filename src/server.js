@@ -85,7 +85,7 @@ let productos = [
     createdAt: "2020-11-23T20:20:54.245Z",
     updatedAt: "2020-11-23T20:20:54.245Z",
     __v: 0,
-    image: "https://cdn.homedepot.com.mx/productos/601195/601195.jpg"},
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5THasW-Cnyp5nCWgmQ8tqiDglG3R87iTwZA&usqp=CAU"},
 
 {isActive: true,
     _id: "5fbc19a65a3f794d72471163",
